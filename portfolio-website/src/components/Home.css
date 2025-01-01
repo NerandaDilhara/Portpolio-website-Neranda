@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00adb5;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+    max-width: 700px;
+  }
+  

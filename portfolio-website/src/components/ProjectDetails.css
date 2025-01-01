@@ -1,0 +1,41 @@
+.project-details {
+    padding: 50px 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .project-details h1 {
+    color: #00adb5;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 30px;
+  }
+  
+  .project-details h3 {
+    font-size: 1.8rem;
+    color: #00adb5;
+    margin-bottom: 15px;
+  }
+  
+  .project-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-details ul li {
+    background-color: #333333;
+    color: #cccccc;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+  

@@ -1,0 +1,36 @@
+.skills {
+    padding: 50px 20px;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: #00adb5;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    background-color: #333333;
+    color: #cccccc;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .skills ul li:hover {
+    background-color: #00adb5;
+    color: #121212;
+  }
+  
