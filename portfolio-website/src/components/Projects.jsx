@@ -12,7 +12,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>Projects</h2>
+      <h2>My Work</h2>
       <ul>
         {projects.map((project) => (
           <li key={project.id}>

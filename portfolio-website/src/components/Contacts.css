@@ -1,66 +1,52 @@
 .contact {
-    padding: 50px 20px;
-    background-color: #1f1f1f;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  .contact h2 {
-    font-size: 2rem;
-    color: #00adb5;
-    margin-bottom: 30px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .contact form input,
-  .contact form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #444444;
-    border-radius: 5px;
-    background-color: #121212;
-    color: #ffffff;
-    font-size: 1rem;
-  }
-  
-  .contact form input::placeholder,
-  .contact form textarea::placeholder {
-    color: #666666;
-  }
-  
-  .contact form input:focus,
-  .contact form textarea:focus {
-    outline: none;
-    border-color: #00adb5;
-  }
-  
-  .contact form button {
-    background-color: #00adb5;
-    color: #121212;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .contact form button:hover {
-    background-color: #008c9e;
-    transform: scale(1.05);
-  }
-  
-  .contact p {
-    margin-top: 20px;
-    font-size: 1rem;
-    color: #cccccc;
-  }
-  
+  padding: 50px 20px;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #00adb5;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00adb5;
+}
+
+.contact-details p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #00adb5;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #ffffff;
+}
+
+.icon {
+  color: #00adb5;
+  font-size: 1.5rem;
+}

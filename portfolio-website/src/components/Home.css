@@ -1,26 +1,107 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
+  padding: 50px;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Make the container fill the full height */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row; /* Align items horizontally (side by side) */
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px; /* Optional: Limiting the width for better control */
+  width: 100%;
+}
+
+.profile-section {
+  margin-right: 50px; /* Add spacing between image and text */
+  flex-shrink: 0; /* Prevent the profile image from shrinking */
+}
+
+.profile-photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 15%;
+  object-fit: cover;
+}
+
+.info-section {
+  max-width: 600px; /* Limit the width of the text section */
+  text-align: left; /* Align text to the left */
+}
+
+.info-section .name {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.info-section .title {
+  font-size: 1.5rem;
+  color: #00adb5;
+}
+
+.info-section .tagline {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin: 20px 0;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px; /* Space between the buttons */
+}
+
+.cta-buttons .btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.cta-buttons .resume-btn {
+  background-color: #00adb5;
+  color: white;
+}
+
+.cta-buttons .resume-btn:hover {
+  background-color: #008c8b;
+}
+
+.cta-buttons .contact-btn {
+  background-color: #333333;
+  color: white;
+}
+
+.cta-buttons .contact-btn:hover {
+  background-color: #444444;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
     text-align: center;
-    background-color: #121212;
-    color: #ffffff;
-    padding: 20px;
   }
   
-  .home h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #00adb5;
-    font-family: "Poppins", sans-serif;
+  .profile-section {
+    margin-bottom: 20px; /* Add space below the profile image */
+    margin-right: 0; /* Remove right margin for smaller screens */
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
   }
   
-  .home p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #cccccc;
-    max-width: 700px;
+  .info-section {
+    max-width: 100%; /* Ensure the text section takes full width */
   }
-  
+}

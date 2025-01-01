@@ -1,65 +1,47 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
 import "./Contacts.css";
+import profileImage from "../assets/profile.jpg"; // Add your profile image here
+import { FaEnvelope, FaPhone, FaLinkedin, FaFacebook, FaYoutube } from "react-icons/fa";
 
-function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [responseMessage, setResponseMessage] = useState("");
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await axios.post("http://localhost:5000/api/contact", formData);
-      setResponseMessage(response.data.message);
-      setFormData({ name: "", email: "", message: "" });
-    } catch (error) {
-      setResponseMessage("Failed to send the message. Try again later.");
-      console.error(error);
-    }
-  };
-
+const Contact = () => {
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-      {responseMessage && <p>{responseMessage}</p>}
+      <div className="contact-container">
+        <div className="profile-image">
+          <img src={profileImage} alt="Profile" />
+        </div>
+        <div className="contact-details">
+          <p>
+            <FaEnvelope className="icon" /> 
+            <a href="mailto:nerandadilhara@gmail.com">nerandadilhara@gmail.com</a>
+          </p>
+          <p>
+            <FaPhone className="icon" /> 
+            <a href="tel:+94760323335">+94 76 032 3335</a>
+          </p>
+          <p>
+            <FaLinkedin className="icon" /> 
+            <a href="https://linkedin.com/in/nerandadilhara" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </p>
+          <p>
+            <FaFacebook className="icon" /> 
+            <a href="https://facebook.com/nerandadilhara" target="_blank" rel="noopener noreferrer">
+              Facebook
+            </a>
+          </p>
+          <p>
+            <FaYoutube className="icon" /> 
+            <a href="https://youtube.com/channel/nerandadilhara" target="_blank" rel="noopener noreferrer">
+              YouTube
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default Contact;

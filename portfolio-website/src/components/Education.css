@@ -1,0 +1,35 @@
+.education {
+    padding: 50px 20px;
+    background-color: #121212; /* Dark theme */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 2rem;
+    color: #00adb5; /* Cyan for headline */
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .education-item {
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .education-item h3 {
+    font-size: 1.5rem;
+    color: #00adb5;
+    margin-bottom: 10px;
+  }
+  
+  .education-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc; /* Softer text color for readability */
+  }
+  
+  .education-item strong {
+    color: #ffffff; /* Highlight important content */
+  }
+  
