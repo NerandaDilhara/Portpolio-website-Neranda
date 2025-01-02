@@ -16,12 +16,15 @@ function About() {
         learning and growing in the field.
       </p>
       <div className="highlights">
-        <h3>Key Highlights</h3>
+      <h3>Key Highlights</h3>
         <ul>
-          <li>Island First in Advanced Level Examination (Engineering Technology, Technology Stream).</li>
-          <li>Dean’s List Achievements for consecutive semesters.</li>
-          <li>Content creator and educator in IT and programming concepts.</li>
+          <li>Achieved Island First in the Advanced Level Examination (Engineering Technology, Technology Stream).</li>
+          <li>Consistently recognized on the Dean’s List for exceptional academic performance across consecutive semesters.</li>
+          <li>Dedicated content creator and educator specializing in IT and programming concepts.</li>
+          <li>Passionate about developing dynamic and innovative projects, including web and MERN stack applications.</li>
+          <li>Experienced in creating end-to-end solutions with a focus on modern technologies and user-centric design.</li>
         </ul>
+
       </div>
     </div>
   );

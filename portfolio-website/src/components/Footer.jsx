@@ -11,13 +11,13 @@ function Footer() {
         <Link to="/projects">Projects</Link> | <Link to="/contact">Contact</Link>
       </div>
       <div className="social-media">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/neranda-dilhara-kumarasingha-2433a4257/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/NerandaDilhara" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/channel/UCg-JUPuBeHWBtfEnXgEtrrg" target="_blank" rel="noopener noreferrer">
           YouTube
         </a>
       </div>

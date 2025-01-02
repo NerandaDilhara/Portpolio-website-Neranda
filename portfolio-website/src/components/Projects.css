@@ -21,9 +21,9 @@
   background-color: #333333;
   padding: 15px;
   margin: 10px 0;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: transform 0.2s ease, background-color 0.3s;
-  color: #f0f0f0; /* Light color for project names */
+  color: #bdb7b7; /* Light color for project names */
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
   text-align: center;

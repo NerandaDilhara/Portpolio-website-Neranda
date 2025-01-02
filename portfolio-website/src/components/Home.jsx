@@ -15,10 +15,11 @@ function Home() {
           />
         </div>
         <div className="info-section">
-          <h1 className="name">NERANDA DILHARA</h1>
+        <h1 className="name">NERANDA DILHARA</h1>
           <h2 className="title">
-            Aspiring Software Engineer | Software Engineering Undergraduate
+            Aspiring Software Engineer | MERN Stack Developer | Software Engineering Undergraduate
           </h2>
+
           <p className="tagline">
             “Passionate about innovation, dynamic projects, and continuous
             learning.”

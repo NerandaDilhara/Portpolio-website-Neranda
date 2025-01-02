@@ -38,3 +38,17 @@
   border-radius: 5px;
   max-width: 400px;
 }
+
+.github-link {
+  color: #b3e5fc; /* Light blue */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.github-link:hover {
+  color: #81d4fa; /* Slightly darker light blue on hover */
+  text-decoration: underline;
+}

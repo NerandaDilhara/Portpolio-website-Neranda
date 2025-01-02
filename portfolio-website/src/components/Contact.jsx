@@ -22,19 +22,19 @@ const Contact = () => {
           </p>
           <p>
             <FaLinkedin className="icon" /> 
-            <a href="https://linkedin.com/in/nerandadilhara" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/neranda-dilhara-kumarasingha-2433a4257/" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </p>
           <p>
             <FaFacebook className="icon" /> 
-            <a href="https://facebook.com/nerandadilhara" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/neranda.dilhara/" target="_blank" rel="noopener noreferrer">
               Facebook
             </a>
           </p>
           <p>
             <FaYoutube className="icon" /> 
-            <a href="https://youtube.com/channel/nerandadilhara" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/channel/UCg-JUPuBeHWBtfEnXgEtrrg" target="_blank" rel="noopener noreferrer">
               YouTube
             </a>
           </p>
